@@ -5,10 +5,11 @@
   "main": "app.js",
   "dependencies": {
     "ejs": "^2.5.6",
-    "express": "^4.14.1",
-    "socket.io": "^1.7.3"
+    "express": "^4.14.1"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "socket.io": ">=2.4.0"
+  },
   "scripts": {
     "start": "node app.js"
   }
